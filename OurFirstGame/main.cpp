@@ -2,7 +2,8 @@
 
 int main()
 {
-	sf::RenderWindow window(sf::VideoMode(240, 200), "SFML works!");
+	std::string windowsName = "OurFirstGame";
+	sf::RenderWindow window(sf::VideoMode(250, 200), windowsName);
 	sf::CircleShape shape(100.f);
 	shape.setFillColor(sf::Color::Red);
 
