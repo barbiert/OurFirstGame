@@ -36,3 +36,6 @@ ipch/
 *.opensdf
 *.sdf
 *.cachefile
+Debug/*.*
+OurFirstGame.VC.db
+OurFirstGame/Debug/*
