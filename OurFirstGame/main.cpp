@@ -2,7 +2,7 @@
 
 int main()
 {
-	std::string windowsName = "OurFirstGame";
+	std::string windowsName = "OurFirstGame!";
 	sf::RenderWindow window(sf::VideoMode(250, 200), windowsName);
 	sf::CircleShape shape(100.f);
 	shape.setFillColor(sf::Color::Red);
